@@ -20,7 +20,7 @@ const About = () => {
             MORE ABOUT US ⟶
           </Link>
         </div>
-      </div>
+    </div>
       <div className='col-span-1 '>
         <img  className='size-full object-cover' src={grid1} alt="" />
       </div>

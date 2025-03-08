@@ -3,7 +3,7 @@ const Subscribe = () => {
     return (
         <>
             <div className='px-12 h-70 w-full bg-black flex items-center gap-12
-            bg-[url(src/assets/pattern1.jpg)]  '>
+            bg-[url(src/assets/pattern1.jpg)]'>
                 <h1 className='uppercase text-white font-anton text-[42px] text-wrap leading-12 tracking-wide'>
                     Subscribe now for latest <br /> updates
                 </h1>
