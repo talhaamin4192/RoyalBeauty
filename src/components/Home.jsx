@@ -8,6 +8,7 @@ import Subscribe from './Subscribe'
 import Explore from './Explore'
 import Socials from './Socials'
 import Reviews from './Reviews'
+import Footer from './Footer'
 const Home = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const Home = () => {
     <Explore></Explore>
     <Socials></Socials>
     <Reviews></Reviews>
+    <Footer></Footer>
     </div>
    
     </>
