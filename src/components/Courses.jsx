@@ -4,6 +4,7 @@ import img1 from '../assets/eyebrowsNano.jpg'
 import img2 from '../assets/EyebrowsPMU.png'
 import img3 from '../assets/LipsPMU.jpeg'
 import img4 from '../assets/SemiPermanent.png'
+import LoadBtn from './LoadBtn'
 const Courses = () => {
     return (
         <div className='h-screen w-full flex flex-col justify-around py-4 px-12 items-center font-roboto '>
@@ -71,10 +72,7 @@ const Courses = () => {
                 </div>
             </div>
             <div>
-                <button className='bg-black text-sm text-white font-light px-9 py-3 rounded-3xl
-                    border-1 hover:text-black hover:bg-white transition-all duration-250 ease-in'>
-                    LOAD MORE
-                </button>
+                <LoadBtn></LoadBtn>
             </div>
 
         </div>

@@ -7,7 +7,7 @@ const Header = () => {
         <div className='font-light'>
             <div className='bg-brown-1 h-15 w-full flex items-center justify-center '>
                 <Link to="/" className=' underline text-white px-3 py-2 bg-black hover:text-brown-2 transition-colors 
-                ease-in duration-250' >
+                ease-in duration-250 tracking-widest text-sm' >
                     CALL OR TEXT NOW 647-323-1622 FOR FASTER REPLY
                 </Link>
             </div>
@@ -51,7 +51,7 @@ const Header = () => {
                     </li>
                     <li>
                         <Link
-                            to='/'
+                            to='/Service'
                             className='relative after:absolute after:-bottom-3 after:left-0 after:w-full 
                                         after:bg-brown-2 after:transition-all after:duration-300 
                                        after:content-[""] hover:after:h-[3px] px-2'

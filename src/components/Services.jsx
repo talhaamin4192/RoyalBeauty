@@ -4,6 +4,7 @@ import img5 from '../assets/services1.webp'
 import img6 from '../assets/services2.jpg'
 import img7 from '../assets/services3.webp'
 import img8 from '../assets/services4.jpg'
+import LoadBtn from './LoadBtn'
 const Services = () => {
     return (
         <div className='h-screen w-full flex flex-col justify-around py-4 px-12 items-center font-roboto bg-light-orange '>
@@ -74,10 +75,7 @@ const Services = () => {
                 </div>
             </div>
             <div>
-                <button className='bg-black text-sm text-white font-light px-9 py-3 rounded-3xl
-                    border-1 hover:text-black hover:bg-white transition-all duration-250 ease-in'>
-                    LOAD MORE
-                </button>
+               <LoadBtn></LoadBtn>
             </div>
 
         </div>
