@@ -92,7 +92,7 @@ const Related = () => {
                     </li>
                     <li>
                         <Link to='/' className='flex flex-col gap-7'>
-                            <img src={Related1} alt="" />
+                            <img src={Related4} alt="" />
                             <div  className='flex flex-col gap-1'>
                                 <h3 className='text-brown-1 font-semibold'>Ombre Shading</h3>
                                 <h4 className='text-brown-5 text-[13.7px]'>$525.00</h4>
