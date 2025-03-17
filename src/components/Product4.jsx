@@ -9,7 +9,7 @@ const Product4 = () => {
   return (
     <div className='font-roboto'>
       <Header></Header>
-      <div className='grid grid-cols-2 h-[150vh] w-full bg-sec px-22 gap-10 py-10'>
+      <div className='grid grid-cols-2 h-max w-full bg-sec px-22 gap-10 py-10'>
         <div>
           <img className='h-[500px] w-[547px] object-cover' src={Item4} alt="" />
           <div className='flex'>

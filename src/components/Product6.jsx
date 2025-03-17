@@ -8,14 +8,14 @@ const Product6 = () => {
   return (
     <div className='font-roboto'>
       <Header></Header>
-      <div className='grid grid-cols-2 h-[180vh] w-full bg-sec px-22 gap-10 py-10'>
+      <div className='grid grid-cols-2 h-max w-full bg-sec px-22 gap-10 py-10'>
         <div>
           <img className='h-[520px] w-[547px] object-cover' src={Item6} alt="" />
         </div>
         <div>
           <div className='flex flex-col gap-5'>
             <h1 className='font-anton text-[58px] uppercase leading-18 tracking-wider font-normal'>
-            Lip Liner
+              Lip Liner
             </h1>
             <h3 className='text-brown-5 text-xl'>$450.00</h3>
             <p className='flex gap-1 items-center'>or 4 interest-free payments of $112.50 with
@@ -27,7 +27,7 @@ const Product6 = () => {
               </button>
             </p>
             <p>
-            Lip blushing is a semi-permanent cosmetic tattoo that enhances the natural shape and color of the lips, giving them a subtle, tinted appearance.
+              Lip blushing is a semi-permanent cosmetic tattoo that enhances the natural shape and color of the lips, giving them a subtle, tinted appearance.
             </p>
             <h3>Choose Booking date</h3>
             <input type='text' className='h-11 w-full bg-white text-center border-1 border-grey-5' placeholder='Choose Date' />
@@ -54,10 +54,10 @@ const Product6 = () => {
                 <label
                   htmlFor=""
                   className='bg-white px-8 py-4 rounded-lg border-2 border-grey-3'>
-                  <input 
-                  className='size-5' 
-                  type="radio"
-                  style={{ accentColor: '#626060' }} />
+                  <input
+                    className='size-5'
+                    type="radio"
+                    style={{ accentColor: '#626060' }} />
                   Pay Deposit
                 </label>
               </div>
@@ -65,11 +65,10 @@ const Product6 = () => {
                 <label
                   htmlFor=""
                   className='bg-brown-1 text-white px-8 py-4 rounded-lg'>
-                  <input 
-                  className='size-5 '  
-                  type="radio"
-                
-                  style={{ accentColor: '#626060' }}
+                  <input
+                    className='size-5 '
+                    type="radio"
+                    style={{ accentColor: '#626060' }}
                   />
                   Pay full amount
                 </label>
@@ -92,7 +91,7 @@ const Product6 = () => {
           </div>
         </div>
       </div>
-      <div className='px-22 h-[25vh] relative bg-sec '>
+      <div className='px-22 h-max relative bg-sec '>
         <div className='absolute -top-10 border-b-0 left-25 bg-white px-5 py-2 z-10  border-1 border-cstm-border rounded-sm'  >
           <h3 className='font-semibold text-blue-6' >Description</h3>
         </div>

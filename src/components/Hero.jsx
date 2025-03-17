@@ -16,10 +16,10 @@ const Hero = () => {
                     [&>*]:h-55 [&>*]:w-75 [&>*]:bg-cover [&>*]:rounded-lg
                     [&>*]:flex [&>*]:justify-center [&>*]:items-center [&>*]:text-3xl
                     [&>*]:tracking-widest '>
-                        <div className='bg-[url(src/assets/GalleryPage.jpg)] '>IN PERSON <br /> TRAININGS</div>
-                        <div className='bg-[url(src/assets/GalleryPage.jpg)] text-center'>ONLINE <br /> CLASSES</div>
-                        <div className='bg-[url(src/assets/OurProducts.jpg)]'>SERVICES</div>
-                        <div className='bg-[url(src/assets/OurProducts.jpg)]'>CONTACT US</div>
+                        <div className='bg-[url(src/assets/gallery.jpg)] bg-center '>IN PERSON <br /> TRAININGS</div>
+                        <div className='bg-[url(src/assets/gallery.jpg)] bg-center  text-center'>ONLINE <br /> CLASSES</div>
+                        <div className='bg-[url(src/assets/products.jpg)] bg-center '>SERVICES</div>
+                        <div className='bg-[url(src/assets/products.jpg)] bg-center '>CONTACT US</div>
                     </div>
                 </div>
                 <div className='h-56 flex flex-col items-center ' >

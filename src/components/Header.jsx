@@ -23,8 +23,9 @@ const Header = () => {
                         <Link
                             to='/'
                             className='relative after:absolute after:-bottom-3 after:left-0 after:w-full 
-                                        after:bg-brown-2 after:transition-all after:duration-300 
-                                       after:content-[""] hover:after:h-[3px] px-2'
+                                        after:bg-brown-2 after:transition-all after:duration-250 
+                                       after:content-[""] hover:after:h-[3px]
+                                       hover:after:opacity-100 after:ease-in after:opacity-0 px-2'
                         >
                             About Us
                         </Link>
@@ -33,8 +34,9 @@ const Header = () => {
                         <Link
                             to='/'
                             className='relative after:absolute after:-bottom-3 after:left-0 after:w-full 
-                                        after:bg-brown-2 after:transition-all after:duration-300 
-                                       after:content-[""] hover:after:h-[3px] px-2'
+                                        after:bg-brown-2 after:transition-all after:duration-250 
+                                       after:content-[""] hover:after:h-[3px]
+                                       hover:after:opacity-100 after:ease-in after:opacity-0 px-2'
                         >
                             In person trainings
                         </Link>
@@ -43,8 +45,9 @@ const Header = () => {
                         <Link
                             to='/'
                             className='relative after:absolute after:-bottom-3 after:left-0 after:w-full 
-                                        after:bg-brown-2 after:transition-all after:duration-300 
-                                       after:content-[""] hover:after:h-[3px] px-2'
+                                        after:bg-brown-2 after:transition-all after:duration-250 
+                                       after:content-[""] hover:after:h-[3px]
+                                       hover:after:opacity-100 after:ease-in after:opacity-0 px-2'
                         >
                             Online Classes
                         </Link>
@@ -53,7 +56,7 @@ const Header = () => {
                         <Link
                             to='/Service'
                             className='relative after:absolute after:-bottom-3 after:left-0 after:w-full 
-                                        after:bg-brown-2 after:transition-all after:duration-300 
+                                        after:bg-brown-2 after:transition-all after:ease-in after:duration-300 
                                        after:content-[""] hover:after:h-[3px] px-2'
                         >
                             Services
@@ -63,8 +66,9 @@ const Header = () => {
                         <Link
                             to='/'
                             className='relative after:absolute after:-bottom-3 after:left-0 after:w-full 
-                                        after:bg-brown-2 after:transition-all after:duration-300 
-                                       after:content-[""] hover:after:h-[3px] px-2'
+                                        after:bg-brown-2 after:transition-all after:duration-250 
+                                       after:content-[""] hover:after:h-[3px]
+                                       hover:after:opacity-100 after:ease-in after:opacity-0 px-2'
                         >
                             Payment Plans
                         </Link>
@@ -73,8 +77,9 @@ const Header = () => {
                         <Link
                             to='/'
                             className='relative after:absolute after:-bottom-3 after:left-0 after:w-full 
-                                        after:bg-brown-2 after:transition-all after:duration-300 
-                                       after:content-[""] hover:after:h-[3px] px-2'
+                                        after:bg-brown-2 after:transition-all after:duration-250 
+                                       after:content-[""] hover:after:h-[3px]
+                                       hover:after:opacity-100 after:ease-in after:opacity-0 px-2'
                         >
                             Gallery
                         </Link>
@@ -83,8 +88,9 @@ const Header = () => {
                         <Link
                             to='/'
                             className='relative after:absolute after:-bottom-3 after:left-0 after:w-full 
-                                        after:bg-brown-2 after:transition-all after:duration-300 
-                                       after:content-[""] hover:after:h-[3px] px-2'
+                                        after:bg-brown-2 after:transition-all after:duration-250 
+                                       after:content-[""] hover:after:h-[3px]
+                                       hover:after:opacity-100 after:ease-in after:opacity-0 px-2'
                         >
                             Contact
                         </Link>

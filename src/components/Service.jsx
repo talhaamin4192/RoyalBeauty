@@ -39,7 +39,9 @@ const Service = () => {
                                     <button
                                         type='button'
                                         className='py-3 px-19 bg-black text-white text-sm
-                                    font-light tracking-wider rounded-full '>
+                                        font-light tracking-wider rounded-full hover:bg-white
+                                        hover:text-black border-1 transition-all ease-in 
+                                        duration-150 '>
                                         <Link to='/Product1'>
                                         VIEW DETAILS
                                         </Link>
@@ -59,7 +61,10 @@ const Service = () => {
                                     <button
                                         type='button'
                                         className='py-3 px-19 bg-black text-white text-sm
-                                    font-light tracking-wider rounded-full '>
+                                         font-light tracking-wider rounded-full  hover:bg-white
+                                        hover:text-black border-1 transition-all ease-in 
+                                        duration-150
+                                          '>
                                         <Link to='/Product2'>
                                         VIEW DETAILS
                                         </Link>
@@ -79,7 +84,9 @@ const Service = () => {
                                     <button
                                         type='button'
                                         className='py-3 px-19 bg-black text-white text-sm
-                                    font-light tracking-wider rounded-full '>
+                                    font-light tracking-wider rounded-full  hover:bg-white
+                                        hover:text-black border-1 transition-all ease-in 
+                                        duration-150 '>
                                         <Link to='/Product3'>
                                         VIEW DETAILS
                                         </Link>
@@ -99,7 +106,9 @@ const Service = () => {
                                     <button
                                         type='button'
                                         className='py-3 px-19 bg-black text-white text-sm
-                                    font-light tracking-wider rounded-full '>
+                                    font-light tracking-wider rounded-full  hover:bg-white
+                                        hover:text-black border-1 transition-all ease-in 
+                                        duration-150 '>
                                         <Link to='/Product4'>
                                         VIEW DETAILS
                                         </Link>
@@ -119,7 +128,9 @@ const Service = () => {
                                     <button
                                         type='button'
                                         className='py-3 px-19 bg-black text-white text-sm
-                                    font-light tracking-wider rounded-full '>
+                                    font-light tracking-wider rounded-full  hover:bg-white
+                                        hover:text-black border-1 transition-all ease-in 
+                                        duration-150 '>
                                         <Link to='/Product5'>
                                         VIEW DETAILS
                                         </Link>
@@ -139,7 +150,9 @@ const Service = () => {
                                     <button
                                         type='button'
                                         className='py-3 px-19 bg-black text-white text-sm
-                                         font-light tracking-wider rounded-full '>
+                                         font-light tracking-wider rounded-full  hover:bg-white
+                                        hover:text-black border-1 transition-all ease-in 
+                                        duration-150'>
                                         <Link to='/Product6'>
                                         VIEW DETAILS
                                         </Link>

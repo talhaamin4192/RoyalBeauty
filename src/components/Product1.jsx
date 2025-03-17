@@ -8,8 +8,9 @@ const Product1 = () => {
   return (
     <div className='font-roboto'>
       <Header></Header>
-      <div className='grid grid-cols-2 h-[140vh] w-full bg-sec px-22 gap-10 py-10'>
-        <div>
+      <div className='grid grid-cols-2 h-max w-full bg-sec px-22 gap-10 py-10'>
+        <div className='relative'>
+          
           <img className='h-[376px] w-[547px]' src={Item1} alt="" />
         </div>
         <div>

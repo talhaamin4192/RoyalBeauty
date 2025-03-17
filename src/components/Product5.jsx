@@ -8,7 +8,7 @@ const Product5 = () => {
   return (
     <div className='font-roboto'>
       <Header></Header>
-      <div className='grid grid-cols-2 h-[150vh] w-full bg-sec px-22 gap-10 py-10'>
+      <div className='grid grid-cols-2 h-max w-full bg-sec px-22 gap-10 py-10'>
         <div>
           <img className='h-[290px] w-[547px] object-cover' src={Item5} alt="" />
         </div>
@@ -81,7 +81,6 @@ const Product5 = () => {
                   <input 
                   className='size-5 '  
                   type="radio"
-              
                   style={{ accentColor: '#626060' }}
                   />
                   Pay full amount
@@ -105,7 +104,7 @@ const Product5 = () => {
           </div>
         </div>
       </div>
-      <div className='px-22 h-[25vh] relative bg-sec '>
+      <div className='px-22 h-max relative bg-sec '>
         <div className='absolute -top-10 border-b-0 left-25 bg-white px-5 py-2 z-10  border-1 border-cstm-border rounded-sm'  >
           <h3 className='font-semibold text-blue-6' >Description</h3>
         </div>
