@@ -74,7 +74,7 @@ const Product4 = () => {
                   <input 
                   className='size-5 '  
                   type="radio"
-                  checked='checked'
+            
                   style={{ accentColor: '#626060' }}
                   />
                   Pay full amount
