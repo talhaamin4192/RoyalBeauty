@@ -4,7 +4,7 @@ import Footer from './Footer'
 import Related from './Related'
 import Item1 from '../assets/item1.webp'
 import Afterpay from '../assets/paymentm.svg'
-const product1 = () => {
+const Product1 = () => {
   return (
     <div className='font-roboto'>
       <Header></Header>
@@ -37,7 +37,7 @@ const product1 = () => {
                 </strong>
               </h3>
               <h3>
-                $0.00 x 7
+                $0.00 x 1
               </h3>
             </div>
             <div className='flex w-full justify-between'>
@@ -46,19 +46,32 @@ const product1 = () => {
             </div>
           </div>
           <div>
-            <div className='bg-sec-2 flex flex-col h-30 my-10'>
-              <div className='h-1/2'>
-                <label htmlFor="">
-                  <input type="radio" />
+            <div className='bg-sec-2 flex flex-col h-40 my-10 [&>*]:border-b-1 [&>*]:border-border-grey
+              [&>*]:flex  [&>*]:items-center [&>*]:ps-6 text-sm font-semibold'>
+              <div className='h-1/2 [&>*]:flex [&>*]:gap-3'>
+                <label
+                  htmlFor=""
+                  className='bg-white px-8 py-4 rounded-lg border-2 border-grey-3'>
+                  <input 
+                  className='size-5' 
+                  type="radio"
+                  style={{ accentColor: '#626060' }} />
+                  Pay Deposit
                 </label>
               </div>
-              <hr className='opacity-10' />
-              <div className='h-1/2'>
-                <label htmlFor="">
-                  <input type="radio" />
+              <div className='h-1/2 [&>*]:flex [&>*]:gap-3'>
+                <label
+                  htmlFor=""
+                  className='bg-brown-1 text-white px-8 py-4 rounded-lg'>
+                  <input 
+                  className='size-5 '  
+                  type="radio"
+                  checked='checked'
+                  style={{ accentColor: '#626060' }}
+                  />
+                  Pay full amount
                 </label>
               </div>
-              <hr className='opacity-10' />
             </div>
             <div className='flex gap-2'>
               <input
@@ -82,11 +95,10 @@ const product1 = () => {
           <h3 className='font-semibold text-blue-6' >Description</h3>
         </div>
         <div className='border-t-1 border-cstm-border z-40'>
-        <h2 className='text-[32px] py-4 font-semibold'>Description</h2>
-        <p>Nano Hair Strokes is a gentle, semi-permanent technique that creates incredibly fine, natural-looking brow strokes using a digital machine. It’s perfect for anyone wanting fuller, beautifully shaped brows with a soft and natural finish. Unlike some other methods, this technique works well for all skin types, even oily skin.</p>
-        <p>When you follow the aftercare instructions carefully, your stunning results can last up to 18–24 months, so you can enjoy hassle-free, gorgeous brows for the long term!</p>
+          <h2 className='text-[32px] py-4 font-semibold'>Description</h2>
+          <p>Nano Hair Strokes is a gentle, semi-permanent technique that creates incredibly fine, natural-looking brow strokes using a digital machine. It’s perfect for anyone wanting fuller, beautifully shaped brows with a soft and natural finish. Unlike some other methods, this technique works well for all skin types, even oily skin.</p>
+          <p>When you follow the aftercare instructions carefully, your stunning results can last up to 18–24 months, so you can enjoy hassle-free, gorgeous brows for the long term!</p>
         </div>
-        
       </div>
       <Related></Related>
       <Footer></Footer>
@@ -94,4 +106,4 @@ const product1 = () => {
   )
 }
 
-export default product1
+export default Product1
