@@ -2,7 +2,7 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Home'
 import Service from './Service'
-import Product1 from './Product1'
+
 import Product2 from './Product2'
 import Product3 from './Product3'
 import Product4 from './Product4'
@@ -18,10 +18,7 @@ const Router = () => {
       element: <Service></Service>,
       path: "/Service"
     },
-    {
-      element: <Product1></Product1>,
-      path: "/Product1"
-    },
+  
     {
       element: <Product2></Product2>,
       path: "/Product2"
