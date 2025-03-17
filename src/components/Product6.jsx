@@ -8,7 +8,7 @@ const Product6 = () => {
   return (
     <div className='font-roboto'>
       <Header></Header>
-      <div className='grid grid-cols-2 h-[150vh] w-full bg-sec px-22 gap-10 py-10'>
+      <div className='grid grid-cols-2 h-[180vh] w-full bg-sec px-22 gap-10 py-10'>
         <div>
           <img className='h-[520px] w-[547px] object-cover' src={Item6} alt="" />
         </div>
