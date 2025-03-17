@@ -1,11 +1,20 @@
 import React from 'react'
-// import productsImg from "../assets/OurProducts.jpg"
-// import Gallery from "../assets/GalleryPage.jpg"
+import { useState } from 'react'
 import left from "../assets/left.svg"
 import right from "../assets/right.svg"
 
 import Awards from "../assets/awards.png"
 const Hero = () => {
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    const handleLeftClick = () => {
+        setCurrentSlide((prev) => (prev > 0 ? prev - 1 : 2)); // Loop back to the last slide if at the first slide
+    };
+
+    const handleRightClick = () => {
+        setCurrentSlide((prev) => (prev < 2 ? prev + 1 : 0)); // Loop back to the first slide if at the last slide
+    };
+
     return (
         <>
             <div className='h-[160vh] w-full  bg-sec font-anton flex flex-col justify-around 
@@ -28,15 +37,18 @@ const Hero = () => {
                         src={Awards}
                         alt="" />
                 </div>
-                <div className='h-max  flex flex-col  justify-between '>
-                    <div>
+                <div className='h-max flex flex-col justify-between '>
+                    <div className='relative overflow-hidden' >
                         <div>
-                            <button className='size-6'>
+                            <button onClick={handleLeftClick } 
+                            className='size-6 absolute cursor-pointer left-16 z-50 top-20'>
                                 <img src={left} alt="" />
                             </button>
                         </div>
                         <div className='w-[300vw]  flex h-50  [&>*]:flex [&>*]:flex-col 
-                        [&>*]:items-center [&>*]:text-center [&>*]:jutify-center '>
+                        [&>*]:items-center [&>*]:text-center [&>*]:jutify-center 
+                        transition-transform duration-500 ease-in-out'
+                        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
                             <div className='w-[100vw]'>
                                 <div className='max-w-7/12'>
                                     <h2 className='text-brown-1 text-[28px]' >AWARD WINNING SCHOOL IN TORONTO</h2>
@@ -45,8 +57,8 @@ const Hero = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className='w-[100vw]'>
-                                <div className='max-w-7/12'>
+                            <div className='w-[100vw] '>
+                                <div className='max-w-7/12 '>
                                     <h2 className='text-brown-1 text-[28px]' >TOP RATED BEAUTY SCHOOL ON GOOGLE</h2>
                                     <p className='font-roboto font-light my-6' >
                                         LEVEL UP YOUR SKILS AT NANO STROKES, OMBRÉ BROWS, MICROBLADING, LIP BLUSHING AND
@@ -64,16 +76,24 @@ const Hero = () => {
                             </div>
                         </div>
                         <div>
-                            <button className='size-6 text-brown-1 '>
+                            <button 
+                            onClick={handleRightClick}
+                            className='size-6 text-brown-1 absolute top-18 cursor-pointer left-11/12'>
                                 <img src={right} alt="" />
                             </button>
                         </div>
                     </div>
-                    <div className='[&>*]:rounded-full [&>*]:size-3 gap-2 [&>*]:bg-brown-1 flex justify-center'>
-                        <div className=''></div>
-                        <div className=''></div>
-                        <div className=''> </div>
-                    </div>
+                    <div className='flex justify-center gap-2 mt-4'>
+                <div
+                    className={`size-3 rounded-full ${currentSlide === 0 ? 'bg-brown-1' : 'bg-gray-300'}`}
+                ></div>
+                <div
+                    className={`size-3 rounded-full ${currentSlide === 1 ? 'bg-brown-1' : 'bg-gray-300'}`}
+                ></div>
+                <div
+                    className={`size-3 rounded-full ${currentSlide === 2 ? 'bg-brown-1' : 'bg-gray-300'}`}
+                ></div>
+            </div>
                 </div>
             </div>
         </>
