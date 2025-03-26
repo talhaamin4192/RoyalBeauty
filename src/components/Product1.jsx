@@ -56,10 +56,10 @@ const Product1 = () => {
               Nano Hair Strokes uses a digital machine to create fine, natural-looking brow strokes that last 18–24 months with proper aftercare.
             </p>
             <h3>Choose Booking date</h3>
-            <input 
-              type='date' 
-              className='h-11 w-full bg-white text-center border-1' 
-              placeholder='Choose Date' 
+            <input
+              type='date'
+              className='h-11 w-full bg-white text-center border-1'
+              placeholder='Choose Date'
               value={selectedDate}
               onChange={handleDateChange}
               min={getCurrentDate()} // Set the min attribute to the current date
@@ -87,10 +87,10 @@ const Product1 = () => {
                 <label
                   htmlFor=""
                   className='bg-white px-8 py-4 rounded-lg border-2 border-grey-3'>
-                  <input 
-                  className='size-5' 
-                  type="radio"
-                  style={{ accentColor: '#626060' }} />
+                  <input
+                    className='size-5'
+                    type="radio"
+                    style={{ accentColor: '#626060' }} />
                   Pay Deposit
                 </label>
               </div>
@@ -98,10 +98,10 @@ const Product1 = () => {
                 <label
                   htmlFor=""
                   className='bg-brown-1 text-white px-8 py-4 rounded-lg'>
-                  <input 
-                  className='size-5 '  
-                  type="radio"
-                  style={{ accentColor: '#626060' }}
+                  <input
+                    className='size-5 '
+                    type="radio"
+                    style={{ accentColor: '#626060' }}
                   />
                   Pay full amount
                 </label>
@@ -122,7 +122,9 @@ const Product1 = () => {
               </label>
               <button className='bg-grey-2 text-white font-bold
               tracking-wider hover:text-black border-grey-2 hover:bg-white
-              border-1 transition-all duration-300 ease-in rounded-full px-3 py-2'>BOOK NOW</button>
+              border-1 transition-all duration-300 ease-in rounded-full px-3 py-2 cursor-pointer'>
+                BOOK NOW
+              </button>
             </div>
           </div>
         </div>
