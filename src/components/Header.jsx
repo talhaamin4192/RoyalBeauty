@@ -96,7 +96,7 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="relative">
-                        <Link to="/">
+                        <Link to="/Cart">
                             <img className="absolute left-0 right-0 -bottom-2" src={cart} alt="" />
                             <span className="absolute text-sm flex justify-center items-center bottom-3
                              -right-3 size-6 text-center bg-brown-2 text-white rounded-full">

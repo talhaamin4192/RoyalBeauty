@@ -8,6 +8,7 @@ import Product3 from './Product3'
 import Product4 from './Product4'
 import Product5 from './Product5'
 import Product6 from './Product6'
+import Cart from './Cart'
 const Router = () => {
   const router = createBrowserRouter([
     {
@@ -42,6 +43,10 @@ const Router = () => {
       element: <Product6></Product6>,
       path: "/Product6"
     },
+    {
+      element:<Cart></Cart>,
+      path:"/Cart"
+    }
 
   ]
   )
