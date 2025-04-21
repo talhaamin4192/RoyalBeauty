@@ -1,7 +1,7 @@
 @import "tailwindcss";
-
 @theme {
     --color-brown-1: #897455;
+    --color-black-6:#333333;
     --color-sec:#eeeee6;
     --color-brown-2:#80694d;
     --color-brown-3:#c0b3a2;
@@ -24,4 +24,5 @@
     --color-dark2:#b7b7b3;
     --text-cstm03:10.8px;
     --tracking-wide1:4.25px;
+    --color-red-6:#CC3366;
 }
